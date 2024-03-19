@@ -1,0 +1,79 @@
+/* Unique Color Scheme */
+:root {
+    --primary-color: #2e86de; /* Main color for buttons, links, etc. */
+    --secondary-color: #27ae60; /* Secondary color for accents */
+    --text-color: #333; /* Main text color */
+}
+
+/* Apply Unique Color Scheme */
+body {
+    background-color: #f8f9fa; /* Light background color */
+    color: var(--text-color);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff; /* Text color for navigation links */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff; /* Text color for navigation links */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #f0f0f0; /* Hover color for navigation links */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #1d68a7; /* Darker shade of primary color on hover */
+    border-color: #1d68a7;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: #fff; /* Text color for footer */
+}
+
+/* Links in Footer */
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #f0f0f0; /* Hover color for footer links */
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to body */
+}
+
+.card img{
+    width: 200px;
+    height: auto;
+}
+
+.social-media{
+    font-size: 20px;
+    display: flex;
+  }
+
+  .social-media ul{
+    list-style-type: none;
+  }
+  .social-media li{
+    list-style: none;
+  }
+
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
